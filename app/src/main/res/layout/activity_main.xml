@@ -1,0 +1,39 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Поле для ввода µ -->
+    <EditText
+        android:id="@+id/mean_val"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите µ (среднее значение)"
+        android:inputType="numberDecimal" />
+
+    <!-- Поле для ввода σ² -->
+    <EditText
+        android:id="@+id/variance_value"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Введите σ² (дисперсия)"
+        android:inputType="numberDecimal" />
+
+    <!-- Кнопка генерации -->
+    <Button
+        android:id="@+id/get_random_num"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Сгенерировать число" />
+
+    <!-- Поле для отображения результата -->
+    <TextView
+        android:id="@+id/random_number_result"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:paddingTop="16dp"
+        android:text="Результат будет здесь"
+        android:textSize="18sp" />
+</LinearLayout>

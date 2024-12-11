@@ -1,0 +1,3 @@
+com.example.first.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme
